@@ -30,10 +30,6 @@ This web application allows users to view information about a GitHub user, inclu
 - CSS
 - JavaScript
 
-## APIs Used
-
-- GitHub REST API for user details and repositories.
-
 ## Folder Structure
 
 - `css/`: Contains stylesheets.
