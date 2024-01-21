@@ -50,4 +50,4 @@ Feel free to contribute to the project by creating issues or submitting pull req
 This project is licensed under the [MIT License](LICENSE).
 
 ## Hosted Link
-Netlify :  https://strong-klepon-1400c4.netlify.app/
+Netlify :  [https://strong-klepon-1400c4.netlify.app/](https://effortless-fudge-18af0c.netlify.app/)https://effortless-fudge-18af0c.netlify.app/
