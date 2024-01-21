@@ -6,7 +6,7 @@ This web application allows users to view information about a GitHub user, inclu
 
 - **User Details Display:** Shows user avatar, username, bio, location, and social links.
 - **Repository Listing:** Displays user repositories with details such as name, description, language, and stars.
-- **Pagination:** Supports loading repositories in batches with a "Load More" button.
+- **Pagination:** Supports loading repositories in batches with a "Load More" button.(meaning when user click on Load More he will explore extra 10 repositories in each iteration)
 - **Responsive Design:** The application is designed to be responsive for various screen sizes.
 
 ## Usage
@@ -38,7 +38,8 @@ This web application allows users to view information about a GitHub user, inclu
 
 - `css/`: Contains stylesheets.
 - `js/`: Contains JavaScript files.
-- `index.html`: Main HTML file for the application.
+- `index.html`: Main HTML file for the application.(Form submit page)
+- main.html : contains the repository page 
 
 ## Contributing
 
@@ -47,3 +48,6 @@ Feel free to contribute to the project by creating issues or submitting pull req
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Hosted Link
+Netlify :  https://strong-klepon-1400c4.netlify.app/
