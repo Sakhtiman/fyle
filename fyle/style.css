@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.rounded-avatar{
+    width: 170px;
+    height: 20%;
+}
+header {
+    background:  #FFE1A8;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    /* max-width: 100%; */
+    margin-right: 0px;
+}
+.repo-box a {
+    color:blue;
+    text-decoration: none;
+    
+}
+.user-details {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    max-height: 60%;
+}
+
+.rounded-avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.user-info {
+    flex-grow: 1;
+    color: #555;
+    margin-left: 90px;
+}
+
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    border-radius: 5px; /* Adjust the value as needed */
+}
+/* .git{
+margin-top: 170px;
+display: flex;
+margin-left:100px;
+
+} */
+.icon1{
+    padding-right: 5px;
+    /* margin-top: 200px; */
+    height: 40px;
+    width: 40px;
+    /* margin-right: 200px; */
+}
+main {
+    /* max-width: 800px; */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.repositories-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.repository {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* Style for repository boxes */
+.repo-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.repo-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 48%; /* Adjust as needed to leave some space between boxes */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .repo-row {
+        flex-direction: column;
+    }
+
+    .repo-box {
+        width: 100%;
+    }
+}
+/* header {
+    background: linear-gradient(to right, #ff0000 50%, #00ff00 50%);
+   
+    height: 100px; 
+  } */
